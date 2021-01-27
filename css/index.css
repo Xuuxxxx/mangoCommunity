@@ -1,0 +1,43 @@
+body{
+    background-image: url("../img/index/background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-origin: initial;
+    height: 100%;
+    width: 100%;
+}
+.banner{
+    background-image: url("../img/index/road.jpg");
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+.welcome{
+    width: 70%;
+    padding-top: 270px;
+    font-size: 5em;
+}
+@media screen and (max-width: 768px){
+    .banner>h1{
+        font-size: 3em;
+        width: 100%;
+    }
+}
+.about{
+    padding-left: 130px;
+    padding-top: 50px;
+    padding-right: 50px;
+    text-align: justify;
+}
+.mypicture{
+    width: 50%;
+    padding-top: 50px;
+}
+.middiv{
+    text-align: center;
+}
+.myiframe{
+    background: none;
+}
+
